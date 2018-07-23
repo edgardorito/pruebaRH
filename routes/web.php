@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/data.table', 'DebtorsMaster@dataTable');
+Route::post('/data.table', 'DebtorsMasterController@dataTable');
+Route::post('/data.new_DebtorMaster', 'DebtorsMasterController@store');
+Route::post('/data.delete_DebtorMaster/{debtorno}', 'DebtorsMasterController@destroy');
+Route::post('/errors.new_DebtorMaster', 'DebtorsMasterController@viewErrors');

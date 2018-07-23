@@ -1,5 +1,10 @@
 {
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/fontawesome.min.css": "/css/fontawesome.min.css",
+    "/js/bootstrap.min.js": "/js/bootstrap.min.js",
     "/js/main.js": "/js/main.js",
     "/js/ajax-token.js": "/js/ajax-token.js",
-    "/js/jquery.min.js": "/js/jquery.min.js"
+    "/js/jquery.min.js": "/js/jquery.min.js",
+    "/js/jquery_debtorsMaster-add-edit.js": "/js/jquery_debtorsMaster-add-edit.js",
+    "/js/fontawesome.min.js": "/js/fontawesome.min.js"
 }

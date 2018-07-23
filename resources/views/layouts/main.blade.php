@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fontawesome.min.css') }}" rel="stylesheet">
     @yield('content_css')
     <title>REALHOST</title>
 </head>
@@ -17,10 +18,9 @@
 </body>
 
 <script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/fontawesome.min.js') }}"></script>
 <script src="{{ asset('js/ajax-token.js') }}"></script>
 @yield('content_js')
-
-@yield('modals')
-
 
 </html>
